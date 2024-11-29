@@ -38,7 +38,8 @@ class Post(Base):
 class Type_Of_Media(enum.Enum):
     Image = "image"
     Video = "video"
-    Audio = "audio"
+    Reel = "Reel"
+    History = "History"
 
 class Media(Base):
     __tablename__ = 'media'
